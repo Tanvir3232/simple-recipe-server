@@ -1,0 +1,50 @@
+[
+    {
+        "chef_id": 1,
+        "picture": "https://img.freepik.com/free-photo/happy-young-cook-uniform-holding-salad_171337-5342.jpg",
+        "name": "Alice Johnson",
+        "experience": 2,
+        "recipes": 3,
+        "likes": 8000
+    },
+    {
+        "chef_id": 2,
+        "picture": "https://img.freepik.com/free-photo/portrait-smiling-chef-uniform_329181-675.jpg",
+        "name": "Bob Lee",
+        "experience": 3,
+        "recipes": 4,
+        "likes": 5000
+    },
+    {
+        "chef_id": 3,
+        "picture": "https://img.freepik.com/free-photo/professional-male-chef-cook-white-uniform-cook-hat-pointing-sidewith-index-finger-looking-confident-standing-white-background_141793-20622.jpg",
+        "name": "Cathy Chen",
+        "experience": 5,
+        "recipes": 4,
+        "likes": 12000
+    },
+    {
+        "chef_id": 4,
+        "picture": "https://img.freepik.com/free-photo/young-smiling-caucasian-cook-girl-chef-uniform-keeps-fist-up-isolated-orange-wall_141793-33509.jpg",
+        "name": "Farjana Begum",
+        "experience": 6,
+        "recipes": 80,
+        "likes": 4000
+    },
+    {
+        "chef_id": 5,
+        "picture": "https://img.freepik.com/free-photo/young-pleased-afro-american-cook-chef-uniform-gestures-ok-holds-hand-straight-isolated-orange-wall_141793-33306.jpg",
+        "name": "Nayeem Ahmed",
+        "experience": 4,
+        "recipes": 3,
+        "likes": 15000
+    },
+    {
+        "chef_id": 6,
+        "picture": "https://img.freepik.com/free-photo/pleased-looking-camera-young-beautiful-girl-chef-uniform-points-side_141793-127475.jpg",
+        "name": "Ayesha Begum",
+        "experience": 2,
+        "recipes": 3,
+        "likes": 25000
+    }
+]
