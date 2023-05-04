@@ -4,47 +4,312 @@
         "picture": "https://img.freepik.com/free-photo/happy-young-cook-uniform-holding-salad_171337-5342.jpg",
         "name": "Alice Johnson",
         "experience": 2,
-        "recipes": 3,
-        "likes": 8000
+        "total_recipes": 4,
+        "likes": 8000,
+        "bio": "Alice Johnson is a Scottish-born chef, restaurateur, and television personality. He has numerous Michelin stars to his name and is known for his fiery temper in the kitchen.",
+        "recipes": [
+            {
+                "recipe_name": "Biriyani",
+                "ingredients": [
+                    "Basmati Rice",
+                    "Chicken",
+                    "Potato",
+                    "Spices",
+                    "Onion"
+                ],
+                "cooking_method": "Cook the rice separately and mix with the cooked chicken, spices, and onions. Then cook again with the potato in a pot for about 30 minutes.",
+                "rating": 4.5
+            },
+            {
+                "recipe_name": "Fish Curry",
+                "ingredients": [
+                    "Fish",
+                    "Tomatoes",
+                    "Onion",
+                    "Garlic",
+                    "Ginger"
+                ],
+                "cooking_method": "Cook the fish in a pan with tomatoes and spices. Separately, saute onions, garlic, and ginger and add it to the cooked fish. Let it cook for about 10 minutes.",
+                "rating": 4.2
+            },
+            {
+                "recipe_name": "Shorshe Ilish",
+                "ingredients": [
+                    "Hilsa fish",
+                    "Mustard oil",
+                    "Mustard seeds",
+                    "Turmeric powder",
+                    "Green chilies"
+                ],
+                "cooking_method": "1. Marinate the fish in mustard oil, mustard seeds, turmeric powder, and salt for 15 minutes. \n2. Fry the fish in mustard oil until golden brown. \n3. Add green chilies and cook for a few more minutes.",
+                "rating": 4.2
+            },
+            {
+                "recipe_name": "Shrimp Fried Rice",
+                "ingredients": [
+                    "Rice",
+                    "Shrimp",
+                    "Egg",
+                    "Carrot",
+                    "Peas",
+                    "Soy sauce"
+                ],
+                "cooking_method": "1. Cook the rice and set aside. \n2. Fry the shrimp and set aside. \n3. Fry the egg, carrot, and peas until tender. \n4. Add the cooked rice and shrimp and stir-fry for a few minutes. \n5. Add soy sauce and serve hot.",
+                "rating": 4.5
+            }
+        ]
     },
     {
         "chef_id": 2,
         "picture": "https://img.freepik.com/free-photo/portrait-smiling-chef-uniform_329181-675.jpg",
         "name": "Bob Lee",
         "experience": 3,
-        "recipes": 4,
-        "likes": 5000
+        "total_recipes": 4,
+        "likes": 5000,
+        "bio": "Bob Lee is an Italian chef and restaurateur. He is the owner of Osteria Francescana, which has been ranked as the best restaurant in the world on multiple occasions.",
+        "recipes": [
+            {
+                "recipe_name": "Dal",
+                "ingredients": [
+                    "Lentils",
+                    "Tomatoes",
+                    "Onion",
+                    "Garlic",
+                    "Ginger"
+                ],
+                "cooking_method": "Boil the lentils and add tomatoes, onions, garlic, and ginger. Let it cook for about 20 minutes.",
+                "rating": 4.0
+            },
+            {
+                "recipe_name": "Shrimp Curry",
+                "ingredients": [
+                    "Shrimp",
+                    "Coconut Milk",
+                    "Onion",
+                    "Garlic",
+                    "Turmeric"
+                ],
+                "cooking_method": "Cook the shrimp with turmeric, onions, and garlic. Separately, simmer coconut milk and add the cooked shrimp to it. Let it cook for about 10 minutes.",
+                "rating": 4.8
+            },
+            {
+                "recipe_name": "Chapli Kabab",
+                "ingredients": [
+                    "Ground beef",
+                    "Onion",
+                    "Tomato",
+                    "Cumin",
+                    "Coriander",
+                    "Red chili powder"
+                ],
+                "cooking_method": "1. Mix the ground beef with onion,tomato, cumin, coriander, red chili powder, and salt. \n2. Shape the mixture into patties and cook on a hot griddle for 3-4 minutes on each side. \n3. Serve hot with a side of chutney.",
+                "rating": 4.7
+            }
+        ]
     },
     {
         "chef_id": 3,
         "picture": "https://img.freepik.com/free-photo/professional-male-chef-cook-white-uniform-cook-hat-pointing-sidewith-index-finger-looking-confident-standing-white-background_141793-20622.jpg",
-        "name": "Cathy Chen",
+        "name": "Tomal  Das",
         "experience": 5,
-        "recipes": 4,
-        "likes": 12000
+        "total_recipes": 3,
+        "likes": 12000,
+        "bio": "Tomal  Das is an Bangladeshi chef, author, and founder of Milk Bar, a bakery known for its inventive and playful desserts. She is also a judge on the cooking competition show MasterChef.",
+        "recipes": [
+            {
+                "recipe_name": "Beef Curry",
+                "ingredients": [
+                    "Beef",
+                    "Yogurt",
+                    "Onion",
+                    "Garlic",
+                    "Ginger"
+                ],
+                "cooking_method": "Marinate the beef with yogurt, garlic, ginger, and spices for a few hours. Then cook it with onions in a pot for about 1 hour.",
+                "rating": 4.3
+            },
+            {
+                "recipe_name": "Mixed Vegetables",
+                "ingredients": [
+                    "Potato",
+                    "Cauliflower",
+                    "Peas",
+                    "Carrots",
+                    "Spices"
+                ],
+                "cooking_method": "Saute all the vegetables with spices in a pan. Cover and let it cook for about 20 minutes.",
+                "rating": 4.1
+            },
+            {
+                "recipe_name": "Shami Kabab",
+                "ingredients": [
+                    "Ground beef",
+                    "Chickpeas",
+                    "Onion",
+                    "Ginger",
+                    "Garlic",
+                    "Spices"
+                ],
+                "cooking_method": "1. Boil the chickpeas until they are tender. \n2. Mix the ground beef with onion, ginger, garlic, and spices. \n3. Add the boiled chickpeas and mix well. \n4. Shape the mixture into patties and cook on a hot griddle for 3-4 minutes on each side.",
+                "rating": 4.3
+            }
+        ]
     },
     {
         "chef_id": 4,
         "picture": "https://img.freepik.com/free-photo/young-smiling-caucasian-cook-girl-chef-uniform-keeps-fist-up-isolated-orange-wall_141793-33509.jpg",
         "name": "Farjana Begum",
         "experience": 6,
-        "recipes": 80,
-        "likes": 4000
+        "total_recipes": 3,
+        "likes": 4000,
+        "bio": "Farjana Begum is an Bangladeshi chef, restaurateur, and author. He is known for his emphasis on fresh, seasonal ingredients and his unique fusion of Middle Eastern and Western cuisines.",
+        "recipes": [
+            {
+                "recipe_name": "Chapati",
+                "ingredients": [
+                    "Wheat flour",
+                    "Water",
+                    "Salt",
+                    "Oil",
+                    "Butter"
+                ],
+                "cooking_method": "Mix wheat flour, water, and salt to make a dough. Roll the dough into thin circles and cook them in a pan. Spread butter on the cooked chapati.",
+                "rating": 4.6
+            },
+            {
+                "recipe_name": "Lamb Curry",
+                "ingredients": [
+                    "Lamb",
+                    "Onion",
+                    "Garlic",
+                    "Ginger",
+                    "Cumin"
+                ],
+                "cooking_method": "Saute onions, garlic, ginger, and cumin in a pot. Add the lamb and let it cook for about 1 hour.",
+                "rating": 4.4
+            },
+            {
+                "recipe_name": "Fish Kalia",
+                "ingredients": [
+                    "Fish",
+                    "Tomato",
+                    "Onion",
+                    "Garlic",
+                    "Ginger",
+                    "Spices"
+                ],
+                "cooking_method": "1. Fry the fish in oil until browned and set aside. \n2. Fry onion, garlic, and ginger until browned. \n3. Add tomato and spices and cook for a few minutes. \n4. Add the fried fish and cook for a few more minutes.",
+                "rating": 4.1
+            }
+        ]
     },
     {
         "chef_id": 5,
         "picture": "https://img.freepik.com/free-photo/young-pleased-afro-american-cook-chef-uniform-gestures-ok-holds-hand-straight-isolated-orange-wall_141793-33306.jpg",
         "name": "Nayeem Ahmed",
         "experience": 4,
-        "recipes": 3,
-        "likes": 15000
+        "total_recipes": 3,
+        "likes": 15000,
+        "bio": "Nayeem Ahmed is a Bangladeshi chef and restaurateur. He is the owner of Central, a restaurant that has been ranked as one of the best in the world, and is known for his innovative approach to Peruvian cuisine.",
+        "recipes": [
+            {
+                "recipe_name": "Vegetable Pakora",
+                "ingredients": [
+                    "Chickpea flour",
+                    "Potato",
+                    "Onion",
+                    "Spinach",
+                    "Spices"
+                ],
+                "cooking_method": "Mix chickpea flour, potatoes, onions, spinach, and spices to make a batter. Deep fry small portions of the batter in hot oil until golden brown.",
+                "rating": 4.2
+            },
+            {
+                "recipe_name": "Chicken Korma",
+                "ingredients": [
+                    "Chicken",
+                    "Yogurt",
+                    "Cream",
+                    "Onion",
+                    "Garlic"
+                ],
+                "cooking_method": "Marinate the chicken with yogurt, cream, onions, garlic, and spices for a few hours. Then cook it in a pot for about 30 minutes.",
+                "rating": 4.5
+            },
+            {
+                "recipe_name": "Beef Bhuna",
+                "ingredients": [
+                    "Beef",
+                    "Onion",
+                    "Garlic",
+                    "Ginger",
+                    "Tomato",
+                    "Spices"
+                ],
+                "cooking_method": "1. Fry the beef in oil until browned and set aside. \n2. Fry onion, garlic, and ginger until browned. \n3. Add tomato and spices and cook for a few minutes. \n4. Add the fried beef and cook for a few more minutes.",
+                "rating": 4.5
+            }
+        ]
     },
     {
         "chef_id": 6,
         "picture": "https://img.freepik.com/free-photo/pleased-looking-camera-young-beautiful-girl-chef-uniform-points-side_141793-127475.jpg",
         "name": "Ayesha Begum",
         "experience": 2,
-        "recipes": 3,
-        "likes": 25000
+        "total_recipes": 4,
+        "likes": 25000,
+        "bio": "Ina Garten is an American chef, author, and television personality. She is the host of the popular cooking show Barefoot Contessa and is known for her simple, elegant approach to cooking.",
+        "recipes": [
+            {
+                "recipe_name": "Mutton Biryani",
+                "ingredients": [
+                    "Basmati Rice",
+                    "Mutton",
+                    "Potato",
+                    "Spices",
+                    "Onion"
+                ],
+                "cooking_method": "Cook the rice separately and mix with the cooked mutton, spices, and onions. Then cook again with the potato in a pot for about 45 minutes.",
+                "rating": 4.7
+            },
+            {
+                "recipe_name": "Chana Masala",
+                "ingredients": [
+                    "Chickpeas",
+                    "Tomatoes",
+                    "Onion",
+                    "Garlic",
+                    "Ginger"
+                ],
+                "cooking_method": "Cook chickpeas with tomatoes, onions, garlic, ginger, and spices in a pot for about 20 minutes.",
+                "rating": 4.0
+            },
+            {
+                "recipe_name": "Morog Polao",
+                "ingredients": [
+                    "Rice",
+                    "Chicken",
+                    "Onion",
+                    "Garlic",
+                    "Ginger",
+                    "Spices"
+                ],
+                "cooking_method": "1. Cook the rice and set aside. \n2. Fry the onions in oil until golden brown. \n3. Add the chicken and fry until browned. \n4. Add garlic, ginger, and spices and cook for a few minutes. \n5. Layer the rice and chicken in a pot and cook on low heat for 30 minutes.",
+                "rating": 4.2
+            },
+            {
+                "recipe_name": "Beef Rezala",
+                "ingredients": [
+                    "Beef",
+                    "Yogurt",
+                    "Onion",
+                    "Garlic",
+                    "Ginger",
+                    "Spices"
+                ],
+                "cooking_method": "1. Fry the beef in oil until browned and set aside. \n2. Fry onion, garlic, and ginger until browned. \n3. Add yogurt and spices and cook for a few minutes. \n4. Add the fried beef and cook for a few more minutes.",
+                "rating": 4.3
+            }
+        ]
     }
 ]
